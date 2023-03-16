@@ -1,5 +1,9 @@
-public class Welcome {
+public class Main {
   public static void main(String[] args) {
-    System.out.println("Welcome!");
+    int myInt = 9;
+    double myDouble = myInt;
+
+    System.out.println(myInt);      
+    System.out.println(myDouble);  
   }
 }
